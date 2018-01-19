@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     data class UserModel(
             @field:Json(name = "userId") val userId: String,
-            @Json(name = "id") val id: String,
+            @Json(name = "id") val notId: String,
             @field:Json(name = "title") val title: String,
             @Json(name = "body") val body: String
     )

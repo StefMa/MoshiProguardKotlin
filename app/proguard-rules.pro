@@ -22,7 +22,7 @@
 -ignorewarnings
 
 # My model
--keep public class guru.stefma.moshiproguardkotlin.UserModel
+-keep public class guru.stefma.moshiproguardkotlin.** { *; }
 
 # Moshi rules
 -dontwarn okio.**
